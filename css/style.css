@@ -1,8 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Courgette');
 
-/* * === This is the body of the website === */
+/*  === This is the body of the website === */
 
 .closetlogo img{
     border-radius: 50%;
@@ -19,26 +19,16 @@
   color: rgba(255, 189, 199, 1);
 }
 
-.container {
-    text-align: right;
-    float: right;
-    display: right;
+.update {
+    text-align: center;
+    float: center;
+    display: center;
     border: 5px #f9b5ac;
     margin: auto;
     text-align: center;
-    background-color: rgba(255, 189, 199, 1);
-    color: white;
+    color: rgba(255, 189, 199, 1);
     }
-    
-.container2 {
-    float: right;
-    text-align: right
-    display: right;
-    border: 5px #f9b5ac;
-    margin: auto;
-    background-color: #28AFB0;
-    color: white;
-}
+
 .welcome h3{
     text-align: center;
     background-color: rgba(255, 189, 199, 1);
@@ -48,14 +38,45 @@
 }
 
 .welcome{
-    padding-top: 10px;
+    padding-top: 5px;
+    margin-left: 70px;
+    margin-right: 5px;
 }
 
 body {
-  /*background-color: rgba(0, 255, 246, 1);*/
-  background-image: url("images/silverbackground.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 10px;
+  margin-top:50px;
+  /*margin-left:50px;*/
+  /*margin-right:50px;*/
+  margin-bottom: 50px;
+  
+}
+
+/*Carousel*/
+.reveal, #myCarousel{
+    display: center;
+    margin: auto;
+}
+
+/*.hstory, .dstory{*/
+/*    display: center;*/
+/*    font-size: 18px;*/
+/*    font-family: 'Roboto Slab', serif;*/
+/*    color: #4C4C4C;*/
+}
+
+heel, p{
+    display:center;
+    padding: 30px;
+    margin: auto;
+}
+
+dress, p{
+    display:center;
+    padding: 30px;
+    margin: auto;
 }
 
 /* * === This is the Welcome Header === */
@@ -69,11 +90,12 @@ h1 {
  
 /* * === This is the body of the website === */
 .top {
- text-decoration: none;
+    text-decoration: none;
     color: rgba(255, 189, 199, 1);
     font-family: 'Alfa Slab One', cursive;
     font-size: 30px; 
     text-align: center;
+    padding: 30px;
 }
 .top h2{
     text-align: center;
@@ -81,6 +103,12 @@ h1 {
     font-family: 'Courgette', cursive;
     color: white;
     font-size: 40px;
+    padding: 30px;
+}
+
+.container{
+    margin: auto;
+    display: center;
 }
 
 /* * === This is the navigation bar === */
@@ -89,20 +117,10 @@ h1 {
     color: rgba(255, 189, 199, 1); 
     font-family: 'Alfa Slab One', cursive;
     font-size: 25px;
-    padding: 50px;
+    padding: 5px;
     display: flex;
-    
-   
+    margin-top: 5px;
 }
- 
-/*li a {*/
-/*    color: rgba(255, 189, 199, 1);*/
-/*    text-decoration: none;*/
-/*    }*/
-/*    a:hover, a:active*/
-/*    {*/
-/*    color: yellow;   */
-/*}*/
 
 
 /* * === This is the three navigation bar spacing === */
@@ -115,45 +133,7 @@ ul{
     clear: right;
 }
 
-/* * === This is the five image style === */
-.image-gallery {
-	margin:20px 10px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-}
-
-/* * === This is the five images alignment on page === */
-.image img{
-	width:200px;
-	margin:10px;
-	font-size: 40px;
-	display:flex;
-	justify-content: center;
-	align-items:center;}
 	
-/* * === This is the link to the history of fashion === */
-.footer {
-text-decoration: none;
-    color: rgba(255, 189, 199, 1);
-    font-family: 'Alfa Slab One', cursive;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 10px
-  }
-  
- .footer a{
-    color: rgba(255, 189, 199, 1); 
- } 
- 
- .involve h3{
-    text-align: center;
-    background-color: rgba(255, 189, 199, 1);
-    font-family: 'Courgette', cursive;
-    color: white;
-    font-size: 40px;
- }
- 
 /* * === This is the body of the website === */
  .link {
     text-decoration: none;
@@ -172,11 +152,10 @@ color: rgba(255, 189, 199, 1);
     border-color: rgba(255, 189, 199, 1);
     border-radius: 100%;
     padding: 20px;
-    width: 700px;
+    width: 600px;
     height: 600px;
     flex: right;
-    
-    
+    margin: auto;
 }
 
 .enter{
@@ -185,20 +164,22 @@ color: rgba(255, 189, 199, 1);
 }
 
 .rent{
-     width: 50%;
-     margin-top: 100px;
+     width: 80%;
+     margin-top: 20px;
 }
 
 .rent p{
     font-size: 35px;
     display: flex;
-    padding:30px;
-    border: 5px #f9b5ac;
+    padding:10px;
+    border: 5px, #f9b5ac;
     text-align: left;
     background-color: rgba(255, 189, 199, 1);
-    color: white; 
+    color: #fff; 
     font-family: 'Alfa Slab One', cursive;
-    margin: 50px;
+    margin: 10px;
+    margin-bottom: 50px;
+    margin-top:50px;
 }
 
 /* * === This is the two image style on homepage === */
@@ -211,8 +192,8 @@ color: rgba(255, 189, 199, 1);
 }
 /* * === This is the two images alignment homepage === */
 .catwalk img{
-	width:500px;
-	height:250px;
+	width:300px;
+	height:150px;
     display:flex;
 	justify-content: space-around;
 	align-items:left;
@@ -232,3 +213,132 @@ color: rgba(255, 189, 199, 1);
     margin: auto;
 }
 
+.cityskyline h3{
+    text-align: center;
+    background-color: rgba(255, 189, 199, 1);
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 40px;
+}
+.nyc h1{
+    font-family:'Roboto Slab', serif;
+    font-size: 25px;
+    color: #4C4C4C;
+}
+.nyc p{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: #4C4C4C;
+}
+
+/*INDEX*/
+div.a {
+    
+    height: 35px;
+    margin: auto;
+    margin-top: 10px;
+    position: center;
+    width: 215px;
+}
+
+/*TRIVIA GAME*/
+.trivia{
+    margin: auto;
+    padding: 10px;
+    display: center;
+}
+
+.trivia {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    display: center;
+}
+
+h3 {
+   
+   background-color: rgba(255, 189, 199, 1);
+   color: #fff;
+   font-family: 'Courgette', cursive;
+   font-size: 50px;
+   margin: auto;
+   padding: 10px;
+   text-align: center; 
+}
+
+#quiz{
+    color: #333;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+    width: 100%;
+    display: center;
+    
+}
+
+.question{
+    font-weight: 600;
+    }
+    
+.answers {
+    margin-bottom: 20px;
+}
+
+#submit{
+    background-color: rgba(255, 189, 199, 1);
+    border: 0px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+    padding: 20px;
+    display: center;
+    
+   }
+   
+#submit:hover{
+    background-color: #E5ACB6;
+}
+
+ /* === This is the link to the history of fashion === */
+.footer {
+    text-decoration: none;
+    color: rgba(255, 189, 199, 1);
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+ .footer a{
+    color: rgba(255, 189, 199, 1);
+ } 
+ 
+ .involve h3{
+    text-align: center;
+    background-color: rgba(255, 189, 199, 1);
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 40px;
+ }
+
+/*MODAL FORM*/
+div.button {
+    margin: auto;
+    padding: 10px;
+    position: center;
+    width: 20%;
+    color: rgba(255, 189, 199, 1);
+}
+
+h4 {
+    color: rgba(255, 189, 199, 1);
+}
+
+.modal-body img{
+    display: center;
+}

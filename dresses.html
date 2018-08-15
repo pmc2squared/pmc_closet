@@ -3,19 +3,164 @@
 <head>
      <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-       <title>PMC's Closet</title>
+    
+    <title>PMC's Closet</title>
+    
+    <!--    BootStrap Links    -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  
+  <!--Link for Icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+   
+   <!--Link for Stylesheet-->
    <link rel="stylesheet" href="css/style.css" type="text/css">
       
 </head>
   
-  <!--This is the LoginIn Portion-->		
-   <header>
-    <div class="closetlogo">
+<body>
+<div class="closetlogo">
     <img src="images/closet.jpg"> <!--alt="Closet" class="Closet">-->
+    
+      <!--Navigation Bar-->
+<div class="navbar navbar-dark bg-dark" >
+<button class="navbar-toggler custom-toggler" data-toggle="collapse" data-target="#myNavbar">
+    <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav ml-auto font-weight-bold">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="heels.html" class="nav-link">Heels</a></li>
+                <li class="nav-item"><a href="dresses.html" class="nav-link">Dresses</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <hr>
+    
+   <!--Welcome Banner-->
+     <div class="welcome">
+         <h3><center>"I like my money right where I can see it: Hanging in my closet."</center></h3> 
+         <h3><center>*~Carrie Bradshaw~*</center></h3>
+         </div>
+         
+         <hr>
+         
+         <h1><center>Welcome to PMC's Closet</center></h1>
+         
+   <hr>
    
+   <div class="container">
+   <div class="top">
+    <h2><center>Top 5 Dress Picks for Summer 2018</center></h2>
+     </div>
+    </div> 
+     <br>
+     
+     <div class=center>
+    <!--    Carousel of Dresses-->
+<div class="reveal">  
+    <div id="myCarousel" class="carousel slide w-50 px-5" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ul>
+        
+<!--      Carousel Images-->
+        <div class="carousel-inner w-100">
+            <div class="carousel-item active"><a href="dresses.html"><img src="images/dress1.jpeg" class="d-block w-100 img-fluid" alt="Dress1"></a></div>
+            <div class="carousel-item"><a href="dresses.html"><img src="images/dress2.jpeg" class="d-block w-100 img-fluid" alt="Dress2"></a></div>
+            <div class="carousel-item"><a href="dresses.html"><img  src="images/dress3.jpeg" class="d-block w-100 img-fluid" alt="Dress3"></a></div>
+            <div class="carousel-item"><a href="dresses.html"><img  src="images/dress4.jpeg" class="d-block w-100 img-fluid" alt="Dress4"></a></div>
+            <div class="carousel-item"><a href="dresses.html"><img  src="images/dress6.jpeg" class="d-block w-100 img-fluid" alt="Dress6"></a></div>
+        </div>
+    </div>
+    
+        <br>
+        
+<!--<div class="dstory">-->
+<!--<div class="row justify-content-around mb-3 mt-4 px-3">-->
+<!--    <div class="col-lg-7 col-sm-6">-->
+<!--        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui harum debitis quisquam, id vero possimus cumque molestiae, doloremque aliquam tempora dolores, minus perspiciatis repudiandae iusto. Magni aliquam, inventore magnam quod unde exercitationem facere ut aliquid fugit, necessitatibus illo expedita id cupiditate delectus molestias iusto maxime et veritatis earum aspernatur ad.</p></div>-->
+<!--    </div>-->
+<!--</div>    -->
+    
+
+<!--FORM-->
+<div class="button">
+     <a href="#" class="btn btn-outline-secondary" data-toggle="modal" data-target="#myForm">FASHION UPDATES <span class="fa fa-camera-retro"></span></a>
+    <div class="container">
+    </div>
+        
+    <!--MODAL WITH FORM-->
+ <div class="modal" id="myForm">
+    <!--Modal Header    -->
+   <div class="modal-dialog">
+   <div class="modal-content">
+    <div class="modal-header">
+        <h4 class="modal-title">STAY IN THE KNOW</h4>
+        <button class="close" type="button" data-dismiss="modal">&times;</button>
+    </div>
+    
+        <!-- Modal Body -->
+   <div class="modal-body">
+   
+   <img src="images/fashion_fade.jpg" width="40%" height="40%">
+   
+   <hr>
+   
+   <form action="">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="Name">
+          </div>
+          
+          <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email">
+          </div>
+ 
+        </form>                                    
+    </div> 
+    
+        <!--Modal Footer    -->
+    <div class="modal-footer">
+    <button type="submit" class="btn btn-secondary" data-dismis=modal>Submit</button>
+
+    <button type="button" class="btn btn-danger" data-dismis=modal>Close</button>
+        </div>
+            </div>   <!--     END of MODAL-DIALOG-->
+        </div><!--     END of MODAL-CONTENT-->
+    </div>  <!--      END of #myModal-->
+</div>
+
+<br>
+        
+ <!--Game About Dress-->
+<div class="container">
+     <div class="trivia">
+    <h3 class="text-center">FASHION TRIVIA</h3>
+
+ 
+    <div id="quiz"></div>
+    <button id="submit">WHAT DO YOU KNOW?</button>
+    <div id="results"></div>
+    </div>
+</div>
+    
+    <hr>
+  <!--This is the Footer-->
+ <footer>
+ <div class= "footer">
+      <p><center></center>Learn more about the <a href="https://fashionhistory.fitnyc.edu/">History of Fashion</a></center></p>
+  </div>
   
-  <form action="/action_page.php">
-      <div class="container">
+  <br>
+
+<!--This is the LoginIn Portion-->		
+    <form action="/action_page.php">
+      <div class="update">
     <label><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
 
@@ -26,42 +171,20 @@
     <input type="checkbox" checked="checked"> Remember me
     </form>
     </div>
-  </header>
-  
-  <body> 
-   <div class="bar">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="heels.html">Heels/Flats</a></li>
-      <li><a href="dresses.html">Dresses</a></li>
-     </ul>
-    </div>
-     
-     <div class="welcome">
-         <h3><center>"I like my money right where I can see it: Hanging in my closet." *~Carrie Bradshaw~*</center></h3> 
-         <h1><center>Welcome to PMC's Closet</center></h1>
-         </div>
+ </footer>
    
-   <div class="top">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     
-            <h2><center>Top 5 Dress Picks for Summer 2017</center></h2>
-         
-         </div>
-   
-    
-        <div class="image-gallery">
-		<div class="image"><img src="images/dress1.jpeg"></div>
-		<div class="image"><img src="images/dress2.jpeg"></div>
-		<div class="image"><img src="images/dress3.jpeg"></div>
-		<div class="image"><img src="images/dress4.jpeg"></div>
-		<div class="image"><img src="images/dress6.jpeg"></div>
-			</div>
-		
-			
-<div class= footer>
-      <p><center></center>Learn more about the <a href="http://www.fashionintime.org/fashion-history/">History of Fashion</a></center></p>
-  </div>
+    <!--JQuery Link for Form Thank You-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+    <!--Link for Javascript-->
+    <script src="js/myscript.js"></script>	
+			
   </body>
   
   </html>
